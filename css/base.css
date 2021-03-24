@@ -54,6 +54,23 @@ grid-template-columns: repeat(2, 1fr);
 font-family: 'GT Flexa Trial', sans-serif;
 }
 
+#intro{
+font-family: 'Circular Std', sans-serif;
+margin-left: 80px;
+width: 800px;
+line-height: 1.8em;
+margin-top: 40px;
+display: grid;
+}
+
+@media screen and (max-width: 800px) {
+	#intro{
+		margin-left: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 .menu ul {
 	list-style-type: none;
 	justify-content:left;
@@ -110,6 +127,22 @@ font-family: 'GT Flexa Trial', sans-serif;
   transition: all 0.4s ease-in;
 }
 
+@media screen and (max-width: 800px) {
+  header {
+  border-bottom: 2px solid #000;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  font-family: 'GT Flexa Trial', sans-serif;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+	.marquee {
+	    width: 0%; }
+}
+
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -120,7 +153,7 @@ margin-right: auto
 }
 
 p{
-	font-family: 'GT Flexa Trial', sans-serif;
+	font-family: 'Circular Std', sans-serif;
 	line-height: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
@@ -138,111 +171,81 @@ opacity: 80%;
 border-top: 2px solid #fff;
 padding-bottom: 0.5em;
 font-family: 'Editorial New', serif;
-color: black;
+
 text-align: center;
 padding-top: 0.5em;
+}
+
+.text-inline{
+font-family: 'Editorial New', serif;
+}
+
+.marquee {
+  margin: 0 auto;
+  width: 100%;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+.marquee:before, .marquee:after {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 30px;
+    content: "";
+    z-index: 1;
+  }
+
+
+.marquee__content {
+  width: 300% !important;
+  display: flex;
+  line-height: 30px;
+  animation: marquee 30s linear infinite forwards;
+}
+
+.marquee__content:hover {
+	animation-play-state: paused;
+}
+
+.text-inline {
+  display: flex;
+  justify-content: space-around;
+  width: 33.33%;
+
+  /* reset text */
+  text-style: none;
+  padding: 0;
+  margin: 0;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-66.6%); }
 }
 
 .container{
 padding: 0 38px;
 }
 
+/*a5a8a1*/
+
 
 .demo-1 {
-	--color-bg: black;
+	--color-bg: #121212;
 	--color-link: white;
 	--color-link-hover: #C6B3B3;
 	--aspect-ratio: 27/17;
 	font-size: 1.25rem;
-	font-family: lausanne, sans-serif;
+	font-family: "Circular Std", sans-serif;
 	--size-title: 9.2vw;
 }
 
-.demo-2 {
-	--blendmode-title: difference;
-	--size-title: 12vw;
-}
 
-.demo-3 {
-	--color-text: white;
-	--color-bg: #120605;
-	--color-link: #8f8f76;
-	--color-link-hover: #fff;
-	font-family:"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-	font-size: 1rem;
-	--imgwidthmax: 400px;
-	--color-description: #7e605b;
-	--font-title: ivymode;
-	--size-title: 9vw;
-	--imgwidthmax: 600px;
-}
 
-.demo-4 {
-	--color-text: #a9a798;
-	--color-bg: #cccdb9;
-	--color-link: #fff;
-	--color-link-hover: #a9a798;
-	--color-title: #fff;
-	font-family: collier, sans-serif;
-	--font-title: inherit;
-	--font-weight-title: 100;
-	font-size: 1.15rem;
-	--imgwidthmax: 520px;
-}
-
-.demo-5 {
-	--color-text: #f0f0f0;
-    --color-bg: #000000;
-    --color-link: #c5a45b;
-    --color-link-hover: #f0f0f0;
-    --color-title: #f0f0f0;
-	font-family: input-mono, monospace;
-	--font-title: inherit;
-	font-size: 1.15rem;
-	--aspect-ratio: 1/1.5;
-	--font-weight-title: 800;
-}
-
-.demo-6 {
-	--color-text: #e01723;
-	--color-bg: #deaaad;
-	--color-link: #c55b61;
-	--color-link-hover: #1d1414;
-	--color-title: #1d1414;
-	font-family: ivymode, sans-serif;
-	--font-title: inherit;
-	font-size: 1.15rem;
-	--aspect-ratio: 1/1.5;
-	--imgwidthmax: 505px;
-}
-
-/* Page Loader */
-.js .loading::before {
-	content: '';
-	position: fixed;
-	z-index: 100000;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: var(--color-bg);
-}
-
-.js .loading::after {
-	content: '';
-	position: fixed;
-	z-index: 100000;
-	top: 50%;
-	left: 50%;
-	width: 60px;
-	height: 60px;
-	margin: -30px 0 0 -30px;
-	pointer-events: none;
-	border-radius: 50%;
-	opacity: 0.4;
-	background: var(--color-link);
-	animation: loaderAnim 0.7s linear infinite alternate forwards;
-}
 
 @keyframes loaderAnim {
 	to {
@@ -255,6 +258,11 @@ a {
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
+}
+
+main{
+	margin-top: 100px;
+	line-height: 1.5em;
 }
 
 a:hover,
@@ -419,6 +427,10 @@ a:focus {
 	width: var(--imgwidth);
 	padding-bottom: calc(var(--imgwidth) / (var(--aspect-ratio)));
 	will-change: transform;
+}
+
+.content__item-imgwrap img{
+	display: block;
 }
 
 .demo-2 .content__item-imgwrap {
