@@ -71,7 +71,7 @@
                 titleTranslationY: {
                     previous: 0,
                     current: 0,
-                    ease: 0.1,
+                    ease: 0.06,
                     fromValue: Number(MathUtils.getRandomFloat(30,400)),
                     setValue: () => {
                         const fromValue = this.renderedStyles.titleTranslationY.fromValue;
