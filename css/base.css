@@ -60,19 +60,6 @@ z-index: 10;
 }
 
 
-
-
-#intro{
-font-family: 'Editorial New', serif;
-margin-left: 80px;
-width: 800px;
-line-height: 1.8em;
-margin-top: 40px;
-display: grid;
-font-size: 18px;
-letter-spacing:0.02em;
-}
-
 #logo:hover, #about:hover, #mail:hover, #insta:hover, #archives:hover{
 	color:#D4C9C9;
 	text-decoration: underline;
@@ -116,12 +103,6 @@ margin-left: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   font-family: 'GT Flexa Trial', sans-serif;
-}
-
-	#intro{
-	margin-left: 50px;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
 }
 
 .marquee {
@@ -219,7 +200,7 @@ rgb(136, 169, 189)
 	--color-link-hover: #C6B3B3;
 	--aspect-ratio: 27/17;
 	font-size: 1.25rem;
-	font-family: 'Circular Std', sans-serif;
+  font-family: 'Test Domaine Text', serif;
 	font-weight: 400;
 	--size-title: 9.2vw;
 }
@@ -460,7 +441,7 @@ a:focus {
 	align-self: start;
 	line-height: 1;
 	font-family: "Editorial New";
-	font-weight: 400;
+	font-weight: 200;
 	color: white;
 	will-change: transform;
 }
@@ -547,23 +528,6 @@ a:focus {
 	}
 }
 
-.ailes{
-  display: block;
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 95%;
-  z-index:100;
-  background-color : black;
-	transform: translateY(0);
-	transition: all 1s ease-in;
-}
-
-.ailes.active{
-transform: translateY(-100%);
-transition: all 1s ease-in;
-}
 
 button{
 	display: block;
@@ -587,15 +551,6 @@ button:hover{
 padding-top: 30%;
 }
 
-.ailes h2{
-font-family: 'Editorial New', serif;
-font-weight: 400;
-font-size: 25px;
-text-align: center;
-}
-.ailes p{
-	text-align: center;
-}
 
 .wing{
 	display: block;
@@ -633,7 +588,7 @@ text-align: center;
 .wing2.active{
 	transform: translateX(200%) rotate(80deg);
 	transition: all 4s ease;
-	
+
 }
 
 #archives{
