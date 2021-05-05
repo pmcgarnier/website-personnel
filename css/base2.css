@@ -215,6 +215,14 @@ padding-top: 1em;
   font-family: 'GT Flexa Trial', sans-serif;
   }
 
+  #hori{
+    margin-top: 5em;
+  }
+
+  #hori, #hori2, #hori3, #hori4 {
+    max-width: 400px;
+    margin-bottom: 2.5em;
+  }
   .descriptions{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -451,5 +459,24 @@ margin-left: 3em;
   height: 200px;
   margin-left: 0.5em;
 }
+
+.menu2 ul {
+  justify-content: center;
+padding-left: 0;
+margin-right: 2em;
+flex-direction: column
+}
+
+.menu ul {
+  justify-content: center;
+  padding-left: 0;
+flex-direction: column
+}
+
+.menu2 nav{
+  text-align: left;
+  margin-left: 0;
+}
+
 
 }
