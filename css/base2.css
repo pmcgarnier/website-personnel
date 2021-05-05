@@ -199,6 +199,12 @@ padding-top: 1em;
 }
 
 #hori{
+  margin-top: 10em;
+}
+
+#hori, #hori2, #hori3, #hori4{
+  max-width: 800px;
+  margin-bottom: 5em;
 }
 
 @media screen and (max-width: 800px) {
