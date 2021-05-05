@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
+
 @font-face {
   font-family: 'Test Domaine Text';
   src: url("fonts/testdomaine.otf") format("otf"),
   			url("fonts/test-domaine-text-regular.woff") format("woff");
 }
 
-@font-face {
-  font-family: 'GT Flexa Trial';
-  src: url("fonts/flexa.otf")format("otf");
-  ;
-}
 
 @font-face {
-  font-family: 'Editorial New';
-  src: url("fonts/editorialnew-light.otf")format("otf");
-  ;
+  font-family: 'GT Flexa', sans-serif;
+  src: url("fonts/flexa.otf") format("otf"),
+  			url("fonts/flexa-Regular.woff2") format("woff2");
+
 }
 
 *,
@@ -73,7 +71,7 @@ body {
 
 header {
 padding: 1em;
-font-family: 'Padauk', sans-serif;
+font-family: 'GT Flexa Trial', sans-serif;
 position: absolute;
 z-index: 10;
 width: 99%;
@@ -158,7 +156,7 @@ margin-left: auto;
   header {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  font-family: 'Padauk', sans-serif;
+	font-family: 'GT Flexa Trial', sans-serif;
 }
 
 .marquee {
@@ -186,15 +184,14 @@ width: 100%;
 opacity: 80%;
 border-top: 2px solid #fff;
 padding-bottom: 0.5em;
-font-family: 'Editorial New', serif;
+font-family: 'Cormorant Garamond', serif;
 
 text-align: center;
 padding-top: 0.5em;
 }
 
 .text-inline{
-font-family: 'Editorial New', serif;
-}
+font-family: 'Cormorant Garamond', serif;}
 
 .marquee {
   margin: 0 auto;
@@ -496,8 +493,8 @@ a:focus {
 	margin: calc(var(--size-title) * -1/2) 0 0 0;
 	align-self: start;
 	line-height: 1;
-	font-family: "Editorial New";
-	font-weight: 200;
+font-family: 'Cormorant Garamond', serif;
+	font-weight: 500;
 	color: white;
 	will-change: transform;
 }

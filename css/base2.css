@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
 
 
 @font-face {
   font-family: 'Test Domaine Text';
   src: url("fonts/testdomaine.otf") format("otf"),
   			url("fonts/test-domaine-text-regular.woff") format("woff");
+
 }
 
 @font-face {
-  font-family: 'GT Flexa Trial';
-  src: url("/fonts/flexa.otf")format("otf");
-  ;
-}
+  font-family: 'GT Flexa', sans-serif;
+  src: url("fonts/flexa.otf") format("otf"),
+  			url("fonts/flexa-Regular.woff2") format("woff2");
 
-@font-face {
-  font-family: 'Editorial New';
-  src: url("/fonts/editorialnew-light.otf")format("otf");
-  ;
 }
 
 /* width */
@@ -77,7 +74,7 @@ p{
 header {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-font-family: 'Padauk', sans-serif;
+  font-family: 'GT Flexa Trial', sans-serif;
 width: 100%;
 background-color: white;
 }
@@ -92,8 +89,8 @@ width: 100%;
 opacity: 80%;
 border-top: 2px solid #000;
 padding-bottom: 0.5em;
-font-family: 'Padauk', sans-serif;}
-
+font-family: 'GT Flexa Trial', sans-serif;
+}
 .botonmenu ul {
 	list-style-type: none;
   align-items:center;
@@ -121,7 +118,7 @@ font-family: 'Padauk', sans-serif;}
 
 
 h1{
-  font-family: 'Padauk', sans-serif;
+  font-family: 'GT Flexa Trial', sans-serif;
   font-size: 48px;
   text-align: center;
   font-weight: 300;
@@ -129,7 +126,7 @@ h1{
 }
 
 h2{
-font-family: 'Editorial New', serif;
+font-family: 'Cormorant', serif;
 font-weight: 100;
 font-size: 48px;
 text-align: center;
@@ -209,7 +206,7 @@ padding-top: 1em;
   border-bottom: 2px solid #000;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-font-family: 'Padauk', sans-serif;
+  font-family: 'GT Flexa Trial', sans-serif;
   }
 
   .descriptions{
@@ -323,7 +320,7 @@ margin-left: 13%;
   color: black;
   text-align: center;
   transition: opacity 0.15s ease;
-font-family: 'Padauk', sans-serif;
+  font-family: 'GT Flexa Trial', sans-serif;
 }
 
 button{
