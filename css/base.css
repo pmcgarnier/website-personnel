@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Test Domaine Text';
+  src: url('fonts/testdomaine.otf');
+  ;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial';
+  src: url('fonts/flexa.otf');
+  ;
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('fonts/editorialnew-light.otf');
+  ;
+}
+
 *,
 *::after,
 *::before {

@@ -12,12 +12,6 @@
 
 @font-face {
   font-family: 'Editorial New';
-  src: url('fonts/editorialnew-regular.otf');
-  ;
-}
-
-@font-face {
-  font-family: 'Editorial New';
   src: url('fonts/editorialnew-light.otf');
   ;
 }
