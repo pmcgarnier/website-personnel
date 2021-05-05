@@ -461,15 +461,15 @@ margin-left: 3em;
 }
 
 .menu2 ul {
-  justify-content: center;
+justify-content: center;
 padding-left: 0;
 margin-right: 2em;
 flex-direction: column
 }
 
 .menu ul {
-  justify-content: center;
-  padding-left: 0;
+justify-content: center;
+padding-left: 0;
 flex-direction: column
 }
 
