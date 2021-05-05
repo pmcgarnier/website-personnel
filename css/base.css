@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 @font-face {
   font-family: 'Test Domaine Text';
-  src: url("fonts/testdomaine.otf") format("otf");
-  ;
+  src: url("fonts/testdomaine.otf") format("otf"),
+  			url("fonts/test-domaine-text-regular.woff") format("woff");
 }
 
 @font-face {
@@ -72,7 +73,7 @@ body {
 
 header {
 padding: 1em;
-font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Padauk', sans-serif;
 position: absolute;
 z-index: 10;
 width: 99%;
@@ -157,7 +158,7 @@ margin-left: auto;
   header {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  font-family: 'GT Flexa Trial', sans-serif;
+  font-family: 'Padauk', sans-serif;
 }
 
 .marquee {

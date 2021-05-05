@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 
+@font-face {
+  font-family: 'Test Domaine Text';
+  src: url("fonts/testdomaine.otf") format("otf"),
+  			url("fonts/test-domaine-text-regular.woff") format("woff");
+}
 /* width */
 ::-webkit-scrollbar {
   width: 13px;
@@ -101,14 +106,14 @@ p{
 }
 
 .liste {
-  font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Padauk', sans-serif;
   font-size: 14px;
 }
 
 header {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Padauk', sans-serif;
 }
 
 .botonmenu ul {
@@ -161,20 +166,20 @@ margin-right: auto
   border-bottom: 2px solid #000;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Padauk', sans-serif;
   }
 }
 
 
 h1{
-  font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Padauk', sans-serif;
   font-size: 48px;
   text-align: left;
   font-weight: 300;
 }
 
 h2{
-    font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Padauk', sans-serif;
     font-size: 18px;
     text-align: left;
 }
