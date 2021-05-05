@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: 'GT Flexa', sans-serif;
+  font-family: 'GT Flexa';
   src: url("fonts/flexa.otf") format("otf"),
   			url("fonts/flexa-Regular.woff2") format("woff2");
 
@@ -121,7 +121,7 @@ h1{
   font-family: 'GT Flexa Trial', sans-serif;
   font-size: 48px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   padding: 0.5em;
 }
 
