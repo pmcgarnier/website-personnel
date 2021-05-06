@@ -477,6 +477,13 @@ flex-direction: column
   text-align: left;
   margin-left: 0;
 }
+h1{
 
+  font-size: 38px;
+
+}
+.botonmenu a{
+  font-size: 16px;
+}
 
 }
