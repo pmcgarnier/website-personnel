@@ -198,45 +198,26 @@ h2{
     margin-right: 10%;
 }
 
-svg{
-  padding-bottom: 3em;
-  max-width: 40px;
-  -webkit-animation-name: star;
-      -webkit-animation-duration: 4000ms;
-      -webkit-animation-iteration-count: infinite;
-      -webkit-animation-timing-function: linear;
-      -moz-animation-name: star;
-      -moz-animation-duration: 4000ms;
-      -moz-animation-iteration-count: infinite;
-      -moz-animation-timing-function: linear;
-      -ms-animation-name: star;
-      -ms-animation-duration: 4000ms;
-      -ms-animation-iteration-count: infinite;
-      -ms-animation-timing-function: linear;
 
-      animation-name: star;
-      animation-duration: 4000ms;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-  }
 
-  @-ms-keyframes star {
-      from { -ms-transform: rotate(0deg); }
-      to { -ms-transform: rotate(360deg); }
-  }
-  @-moz-keyframes star {
-      from { -moz-transform: rotate(0deg); }
-      to { -moz-transform: rotate(360deg); }
-  }
-  @-webkit-keyframes star {
-      from { -webkit-transform: rotate(0deg); }
-      to { -webkit-transform: rotate(360deg); }
-  }
-  @keyframes star {
-      from {
-          transform:rotate(0deg);
+
+
+  @media screen and (min-width: 1500px) {
+
+    h1{
+  font-size: 75px;
+    }
+
+
+    h2{
+        font-size: 50px;
       }
-      to {
-          transform:rotate(360deg);
-      }
+p{
+    font-size: 23px;
+}
+
+.liste{
+
+    font-size: 23px;
+}
   }
