@@ -23,7 +23,7 @@
 
 ::-webkit-scrollbar {
   width: 13px;
-  border-left: 2px solid #fff;
+  border-left: 2px solid #302c32;
 }
 
 /* Track */
@@ -34,7 +34,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: #302c32;
   border-radius: 0px;
 }
 
@@ -44,7 +44,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #D4C9C9;
+  background: white;
 }
 
 :root {
@@ -52,7 +52,7 @@
 }
 
 body {
-	--color-text: white;
+	--color-text: #302c32;
   --color-title: black;
 	--color-link: #000;
 	--color-link-hover: #fff;
@@ -61,8 +61,8 @@ body {
 	--size-title: 10rem;
 	--font-weight-title: 400;
 	color: var(--color-text);
-	background-color: #121212;
-	font-family: turquoise, serif;
+	background-color: black;
+font-family: 'Lausanne', sans-serif;
 	font-size: 1.5rem;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -79,7 +79,7 @@ width: 99%;
 
 
 #logo:hover, #about:hover, #mail:hover, #insta:hover, #archives:hover{
-	color:#D4C9C9;
+	color:#302c32;
 	text-decoration: underline;
   filter: blur(1px);
   transition: all 0.4s ease-in;
@@ -99,6 +99,7 @@ width: 99%;
 
 #archives{
 	grid-column-start:2 ;
+color: white;
 
 }
 
@@ -198,7 +199,7 @@ width: 100%;
 opacity: 80%;
 border-top: 2px solid #fff;
 padding-bottom: 0.5em;
-font-family: 'Cormorant Garamond', serif;
+font-family: 'Test Domaine Text', serif;
 
 text-align: center;
 padding-top: 0.5em;
@@ -266,8 +267,8 @@ rgb(136, 169, 189)
 	--color-link: white;
 	--color-link-hover: #C6B3B3;
 	--aspect-ratio:27/17;
-	font-size: 1.15rem;
-  font-family: 'Test Domaine Text', serif;
+	font-size: 16px;
+font-family: 'Test Domaine Text', serif;
 	font-weight: 400;
 	--size-title: 9.2vw;
 }
@@ -293,8 +294,9 @@ main{
 
 a:hover,
 a:focus {
-	color: var(--color-link-hover);
+	color: white;
 	outline: none;
+  transition: all 0.7s ease-in;
 }
 
 .page {
@@ -502,13 +504,14 @@ a:focus {
 
 .content__item-title {
 	position: relative;
-	font-size: 56px;
+	font-size: 48px;
 	padding: 0 3vw;
 	margin: calc(var(--size-title) * -1/2) 0 0 0;
 	align-self: start;
 	line-height: 1;
   font-family: 'Test Domaine Text', serif;
-	font-weight: 200;
+	font-weight: 400;
+  text-transform: uppercase;
 	color: white;
 	will-change: transform;
 }
