@@ -116,13 +116,15 @@ p{
 }
 
 h3{
-  line-height: 1.5em;
+	line-height: 1.5em;
   font-family: 'Test Domaine Text', serif;
   font-size: 16px;
   font-weight: 100;
   line-height: 1.7;
   letter-spacing: 0.05em;
 }
+
+
 
 .liste {
   font-family: 'Lausanne', sans-serif;
@@ -198,9 +200,10 @@ h1{
 }
 
 h2{
-  font-family: 'GT Flexa Trial', sans-serif;
-    font-size: 18px;
-    text-align: left;
+  font-family: 'Test Domaine Text', serif;
+  font-size: 56px;
+  text-align: left;
+  font-weight: 300;
 }
 
 .description{
