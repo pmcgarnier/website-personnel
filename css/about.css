@@ -24,15 +24,16 @@
 }
 
 .img-fluid {
-  max-width: 40%;
-  height: auto;
+width: 20%;
+  height: 20%;
 	display: block;
-  margin-left: -1em;
-  padding-top: 3em;
+  margin: 8em;
+  padding-top: 2em;
 }
 
 body{
-    background-color: #D4C9C9;
+  color: white;
+    background-color: #f93700;
 }
 
 .menu ul {
@@ -96,13 +97,23 @@ body{
 p{
 	line-height: 1.5em;
   font-family: 'Test Domaine Text', serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.7;
+  letter-spacing: 0.05em;
+}
+
+h3{
+  line-height: 1.5em;
+  font-family: 'Test Domaine Text', serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
 }
 
 .liste {
-  font-family: 'GT Flexa Trial', sans-serif;
-  font-size: 14px;
+  font-family: 'Lausanne', sans-serif;
+  font-size: 10px;
 }
 
 header {
@@ -167,20 +178,21 @@ margin-right: auto
 
 
 h1{
-  font-family: 'GT Flexa Trial', sans-serif;
-  font-size: 48px;
+  font-family: 'Test Domaine Text', serif;
+  font-size: 56px;
   text-align: left;
   font-weight: 300;
 }
 
 h2{
-    font-family: 'GT Flexa Trial', sans-serif;
-    font-size: 18px;
+  font-family: 'Test Domaine Text', serif;
+  font-weight: 100;
+    font-size: 56px;
     text-align: left;
 }
 
 .description{
-    margin-left: 2em;
+    margin-left: 0.5em;
     margin-right: 10%;
 }
 

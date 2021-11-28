@@ -403,3 +403,8 @@ button{
 .carousel-dark .carousel-caption {
   color: #000;
 }
+
+#log{
+height: 400px;
+margin-left: 3em;
+}
