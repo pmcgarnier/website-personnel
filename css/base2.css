@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
+
+
+@font-face {
+  font-family: 'Test Domaine Text';
+  src: url("fonts/testdomaine.otf") format("otf"),
+  			url("fonts/test-domaine-text-regular.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: 'GT Flexa';
+  src: url("fonts/flexa.otf") format("otf"),
+  			url("fonts/flexa-Regular.woff2") format("woff2");
+
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -25,12 +41,13 @@
 
 .img-fluid {
   max-width: 90%;
-  height: auto;
-	padding:1em;
-	display: block;
-margin-left: auto;
-margin-right: auto
+   height: auto;
+ 	padding:1em;
+ 	display: block;
+ margin-left: auto;
+ margin-right: auto
 }
+
 .carousel-inner{
   max-width: 100%;
   height: auto;
@@ -48,6 +65,7 @@ margin-right: auto
   padding-top: 4em;
 }
 
+
 p{
   line-height: 1.5em;
   font-family: 'Test Domaine Text', serif;
@@ -56,12 +74,61 @@ p{
 }
 
 header {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
+padding: 0.5em;
 font-family: 'GT Flexa Trial', sans-serif;
-width: 100%;
-background-color: white;
+position: absolute;
+z-index: 10;
+width: 98%;
+
 }
+
+
+
+a {
+	text-decoration: none;
+	color: var(--color-link);
+	outline: none;
+}
+
+
+
+#logo:hover, #about:hover, #mail:hover, #insta:hover, #archives:hover{
+	color: black;
+	text-decoration: underline;
+  filter: blur(1px);
+  transition: all 0.4s ease-in;
+}
+
+.menu{
+	display: grid;
+  grid-template-columns: 17% 10% auto 10% 10% 10%;
+	grid-gap: 40px;
+	padding: 0.2em;
+}
+
+#logo{
+	grid-column-start: 1;
+  padding-left: 1em;
+}
+
+#archives{
+	grid-column-start:2 ;
+  text-align: center;
+
+}
+
+#about{
+grid-column-start:4 ;
+margin-right: auto;
+margin-left: 0;
+}
+
+#mail{
+	margin-right: auto;
+	margin-left: 0.5em;
+}
+
+
 
 footer{
 position:fixed;
@@ -75,7 +142,6 @@ border-top: 2px solid #000;
 padding-bottom: 0.5em;
 font-family: 'GT Flexa Trial', sans-serif;
 }
-
 .botonmenu ul {
 	list-style-type: none;
   align-items:center;
@@ -106,12 +172,13 @@ h1{
   font-family: 'GT Flexa Trial', sans-serif;
   font-size: 48px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   padding: 0.5em;
+  padding-top:2em;
 }
 
 h2{
-font-family: 'Editorial New', serif;
+font-family: 'Cormorant', serif;
 font-weight: 100;
 font-size: 48px;
 text-align: center;
@@ -119,61 +186,6 @@ border-top: 2px solid #000;
 padding-top: 1em;
 }
 
-.menu ul {
-	list-style-type: none;
-	justify-content:left;
-	display:flex;
-}
-
-.menu li {
-	text-align:left;
-  margin-left: 2.3em;
-}
-
-.menu a {
-  color: black;
-	text-decoration: none;
-	display: block;
-	padding: 0.2em;
-}
-
-.menu li:hover {
-  color:#505DF8;
-	text-decoration: underline;
-  filter: blur(1px);
-  transition: all 0.4s ease-in;
-}
-
-.menu2 nav{
-  text-align: right;
-  margin-left: 2.3em;
-}
-
-.menu2 ul {
-	list-style-type: none;
-	justify-content:flex-end;
-	display:flex;
-  margin-right: 4em;
-}
-
-.menu2 li {
-	text-align:right;
-  margin-left: 2.3em;
-}
-
-.menu2 a {
-  color: black;
-	text-decoration: none;
-	display: block;
-	padding: 0.2em;
-}
-
-.menu2 li:hover {
-  color:#505DF8;
-	text-decoration: underline;
-  filter: blur(1px);
-  transition: all 0.4s ease-in;
-}
 
 .descriptions{
   display: grid;
@@ -183,16 +195,30 @@ padding-top: 1em;
   padding-left: 4em;
 }
 
-#hori{
-}
+
+
 
 @media screen and (max-width: 800px) {
-  header {
-  border-bottom: 2px solid #000;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  font-family: 'GT Flexa Trial', sans-serif;
+
+
+  #hori{
+    margin-top: 5em;
   }
+
+  #hori, #hori2, #hori3, #hori4 {
+    max-width: 400px;
+    margin-bottom: 2.5em;
+  }
+  .descriptions{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+
+
 }
 
 .carousel {
@@ -231,7 +257,7 @@ margin-right: auto;
 }
 
 .carousel-item img{
-margin-left: 13%;
+margin-left: 27%;
 }
 
 @media (prefers-reduced-motion: reduce) {
