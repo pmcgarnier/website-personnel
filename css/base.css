@@ -71,7 +71,7 @@ body {
 
 header {
 padding: 0.5em;
-font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Lausanne', sans-serif;
 position: absolute;
 z-index: 10;
 width: 99%;
@@ -170,7 +170,7 @@ text-align: right;
   header {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-	font-family: 'GT Flexa Trial', sans-serif;
+	font-family: 'Lausanne', sans-serif;
 }
 
 .marquee {
@@ -502,13 +502,13 @@ a:focus {
 
 .content__item-title {
 	position: relative;
-	font-size: 54px;
+	font-size: 56px;
 	padding: 0 3vw;
 	margin: calc(var(--size-title) * -1/2) 0 0 0;
 	align-self: start;
 	line-height: 1;
-font-family: 'Cormorant Garamond', serif;
-	font-weight: 500;
+  font-family: 'Test Domaine Text', serif;
+	font-weight: 200;
 	color: white;
 	will-change: transform;
 }

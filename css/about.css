@@ -134,7 +134,7 @@ h3{
 header {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-font-family: 'GT Flexa Trial', sans-serif;
+font-family: 'Lausanne', sans-serif;
 }
 
 .botonmenu ul {
