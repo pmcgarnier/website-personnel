@@ -143,7 +143,7 @@ h3{
 header {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-font-family: 'Lausanne', sans-serif;
+font-family: 'GT Flexa', sans-serif;
 }
 
 .botonmenu ul {
