@@ -36,7 +36,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #f93700;
+  background: #f3f1ef;
 }
 
 .img-fluid {
@@ -63,6 +63,10 @@ margin-right: auto
 
 #first{
   padding-top: 4em;
+}
+
+body{
+  background-color: #f3f1ef;
 }
 
 

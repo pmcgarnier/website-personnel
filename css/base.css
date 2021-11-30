@@ -23,7 +23,7 @@
 
 ::-webkit-scrollbar {
   width: 13px;
-  border-left: 2px solid #302c32;
+  border-left: 1px solid #f3f1ef;
 }
 
 /* Track */
@@ -34,7 +34,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #302c32;
+  background: #f3f1ef;
   border-radius: 0px;
 }
 
@@ -56,7 +56,7 @@ body {
   --color-title: black;
 	--color-link: #000;
 	--color-link-hover: #fff;
-	--aspect-ratio: 1/1.5;
+	--aspect-ratio: 1/1.3;
 	--imgwidthmax: 500px;
 	--size-title: 10rem;
 	--font-weight-title: 400;
@@ -263,7 +263,7 @@ rgb(136, 169, 189)
 
 
 .demo-1 {
-	--color-bg: #121212;
+	--color-bg: #f3f1ef;
 	--color-link: white;
 	--color-link-hover: #C6B3B3;
 	--aspect-ratio:27/17;
@@ -301,7 +301,7 @@ a:focus {
 
 .page {
 	display: grid;
-	padding: 5vw;
+	padding: 0vw;
 	max-width: 1400px;
 	margin: 0 auto;
 	grid-template-columns: 100%;
@@ -478,7 +478,7 @@ a:focus {
 	--overflow: 40px;
 	height: calc(100% + (2 * var(--overflow)));
 	top: calc( -1 * var(--overflow));
-	width: 100%;
+	width: 70%;
 	position: absolute;
 	background-size: cover;
 	background-position: 50% 0%;
@@ -524,7 +524,7 @@ a:focus {
 	position: relative;
 	margin: 0;
 	padding: 1rem 0 0 0;
-	color: var(--color-description);
+	color: #f3f1ef;
 }
 
 .content--alternate .content__item-title,
@@ -535,8 +535,7 @@ a:focus {
 
 .content--alternate  .content__item:nth-child(even) .content__item-title,
 .content__item--wide .content__item-description {
-	grid-area: 3 / 2 / 4 / 3;
-	justify-self: end;
+	grid-area: 3 / 2 / 3 / 3;
 	width: auto;
 }
 

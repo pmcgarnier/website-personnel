@@ -16,7 +16,7 @@
 /* width */
 ::-webkit-scrollbar {
   width: 13px;
-  border-left: 2px solid #fff;
+  border-left: 2px solid #000;
 }
 
 /* Track */
@@ -27,13 +27,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: black;
   border-radius: 0px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #302c32;
+  background: #f3f1ef;
 }
 
 .img-fluid {
@@ -44,9 +44,18 @@ width: 20%;
   padding-top: 2em;
 }
 
+.img-fluid2 {
+width: 20%;
+
+	display: block;
+  margin-left: 75%;
+
+  padding-bottom: 3em;
+}
+
 body{
-  color: white;
-    background-color: #f93700;
+  color: black;
+    background-color: #f3f1ef;
 }
 
 .menu ul {
@@ -57,7 +66,7 @@ body{
 
 .menu li {
 	text-align:left;
-  margin-left: 2.3em;
+  margin-left: 1.6em;
 }
 
 .menu a {
